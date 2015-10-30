@@ -38,9 +38,7 @@ That's it! Make sure your code works with multiple sizes of keyboard by switchin
 ## Extra Credit
 
 1. The documentation for the keyboard notifications notes that the notification's `userInfo` dictionary provides the duration and curve the system will use for animating the keyboard on and off screen. Use those values so that your animation perfectly matches the keyboard.
-
     - *Hint:* you can use `+[UIView setAnimationCurve:]` inside an animation block to use the curve value from the `userInfo` dictionary.
 
 2. Can you think of a way to combine your two notification-handling methods into one? The only real difference is the location to which we are moving the textfield and image view.
-
     - *Hint:* you can check the name of the notification that triggered a method call via the `NSNotification`'s `name` property.
