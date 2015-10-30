@@ -43,9 +43,7 @@
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
                     <connections>
-                        <outlet property="imageBottomConstraint" destination="zsI-Ig-acG" id="JDK-WA-3wk"/>
                         <outlet property="imageView" destination="IPH-oR-2DA" id="Q63-VZ-zcx"/>
-                        <outlet property="textViewBottomConstraint" destination="Brx-zE-cvW" id="MjR-ML-AZE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
