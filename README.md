@@ -42,3 +42,5 @@ That's it! Make sure your code works with multiple sizes of keyboard by switchin
 
 2. Can you think of a way to combine your two notification-handling methods into one? The only real difference is the location to which we are moving the textfield and image view.
     - *Hint:* you can check the name of the notification that triggered a method call via the `NSNotification`'s `name` property.
+
+<a href='https://learn.co/lessons/objc-keyboard-cat' data-visibility='hidden'>View this lesson on Learn.co</a>
